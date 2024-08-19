@@ -2,6 +2,7 @@
   "name": "duel-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://NOTNOTIK.github.io/duel-game",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -17,8 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "rm -rf build && npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    
+    
   },
   "eslintConfig": {
     "extends": [
